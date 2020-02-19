@@ -9,9 +9,9 @@
   <img alt="license" src="https://img.shields.io/badge/license-MIT-green">
 </div>
 
-# 정민 스앵님과 함께하느 서린 스털뒤
+# 정민 스앵님과 함께하는 서린 스털뒤
 
-## Node.js 와 Express 프레임워크르 사용하여 서버 환경 구축하기
+## Node.js 와 Express 프레임워크를 사용하여 서버 환경 구축하기
 
 ## Table of Contents
 
