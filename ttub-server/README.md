@@ -15,5 +15,5 @@
 ## Table of Contents
 
 - **첫번째 세미나** 서버란 무엇인가? [이동](https://github.com/ttub-nii/Prepare-for-26-Server/blob/master/ttub-server/첫번째%20세미나.md)
-- **두번째 세미나** Node.js Express 환경 세팅하기 [이동]
+- **두번째 세미나** Node.js Express 환경 세팅하기 [이동](https://github.com/ttub-nii/Prepare-for-26-Server/blob/master/ttub-server/두번째%20세미나.md)
 - **세번째 세미나** RestAPI와 Node.js [이동]
