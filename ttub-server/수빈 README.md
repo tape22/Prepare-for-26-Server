@@ -10,9 +10,7 @@
 </div>
 
 # 정민 스앵님과 함께하는 서린 스털뒤
-<div align="center">
   Node.js 와 Express 프레임워크를 사용하여 서버 환경 구축하기
-</div>
 
 ## Table of Contents
 
