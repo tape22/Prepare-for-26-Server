@@ -12,7 +12,7 @@
 # 정민 스앵님과 함께하는 서린 스털뒤
   Node.js 와 Express 프레임워크를 사용하여 서버 환경 구축하기
 
-## Table of Contents
+## 세미나 정리
 
 - **첫번째 세미나** 서버란 무엇인가? [이동](https://github.com/ttub-nii/Prepare-for-26-Server/blob/master/ttub-server/첫번째%20세미나.md)
 - **두번째 세미나** node.js 소개와 프로젝트 구조 [이동](https://github.com/ttub-nii/Prepare-for-26-Server/blob/master/ttub-server/두번째%20세미나.md)
@@ -20,3 +20,8 @@
 - **네번째 세미나** REST API 란 무엇인가? [이동](https://github.com/ttub-nii/Prepare-for-26-Server/blob/master/ttub-server/네번째%20세미나.md)
 - **다섯번째 세미나** node.js의 구조 [이동](https://github.com/ttub-nii/Prepare-for-26-Server/blob/master/ttub-server/다섯번째%20세미나.md)
 
+
+## 과제 정리
+
+- **첫번째 과제** Promise, async, await 알아오기 [이동]
+- **두번째 과제** Blog 기능을 갖춘 서버 구축해보기  [이동]
