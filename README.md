@@ -8,8 +8,8 @@
 
 <br>
 
-<div align="center" style="display:flex;">25기 수료자를 대상으로 한 서버 스터디는
-클라이언트 파트에서 서버 파트로 지원하려는 OB 회원들을 위해 열린 스터디로, 
+<div align="center" style="display:flex;">25기 수료자를 대상으로 한 서버 스터디는<br>
+클라이언트 파트에서 서버 파트로 지원하려는 OB 회원들을 위해 열린 스터디로, <br>
 서버 파트에 들어가기 전에 알고 가면 좋을만한 기본 사항들을 정리한 강의입니다. 
 <br>
 언어는 javascript이고, node.js를 사용합니다.</center></div>
@@ -25,6 +25,10 @@
 	- 스터디 커리큘럼
 <br>	
 ### 02. express와 폴더 구조
+	- express 설치하기
+	- node.js 폴더 구조
+	- 체계적인 폴더링 해보기
+<br>
 ### 03. REST API와 node.js
 ### 04. AWS EC2와 RDS 사용하기
 
