@@ -23,13 +23,21 @@
 	- 서버의 역할
 	- 전체적인 통신 흐름
 	- 스터디 커리큘럼
-<br>	
+
+
 ### 02. express와 폴더 구조
 	- express 설치하기
 	- node.js 폴더 구조
 	- 체계적인 폴더링 해보기
-<br>
+
+
 ### 03. REST API와 node.js
+	- REST API란?
+	- URI와 URL
+	- CRUD와 METHOD
+	- 그래서 node.js 는 무엇인가?
+	- 키워드 별로 알아보자
+	
+	
 ### 04. AWS EC2와 RDS 사용하기
-
-
+	- 
