@@ -1,5 +1,5 @@
 
-# <div align="center"> 🔥Prepare-for-26-Server🔥 <br> <img alt="npm" src="https://img.shields.io/badge/npm-v6.13.4-red"><img alt="node" src="https://img.shields.io/badge/node-v13.6.0-yellow"><img alt="study" src="https://img.shields.io/badge/study-server-blue"><img alt="data" src="https://img.shields.io/badge/since-2020.01.20-lightgrey"><img alt="license" src="https://img.shields.io/badge/license-MIT-green"></center></div>
+# <div align="center"> 🔥Prepare-for-26-Server🔥 <br> <img alt="npm" src="https://img.shields.io/badge/npm-v6.13.4-red"> <img alt="node" src="https://img.shields.io/badge/node-v13.6.0-yellow"> <img alt="study" src="https://img.shields.io/badge/study-server-blue"> <img alt="data" src="https://img.shields.io/badge/since-2020.01.20-lightgrey"> <img alt="license" src="https://img.shields.io/badge/license-MIT-green"> </center></div>
 
 
 <div align="center" style="display:flex;">
@@ -19,7 +19,7 @@
 
 ## 📋목차
 
-### 01. 서버란 무엇인가
+### 01. 서버란 무엇인가 [🔗](https://github.com/tape22/Prepare_for_26_Server/blob/master/01.%20About%20Server.md)
 	- 서버의 역할
 	- 전체적인 통신 흐름
 	- 스터디 커리큘럼
