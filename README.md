@@ -25,7 +25,7 @@
 	- 스터디 커리큘럼
 
 
-### 02. express와 폴더 구조
+### 02. express와 폴더 구조 [🔗](https://github.com/tape22/Prepare_for_26_Server/blob/master/02.%20Express%20%26%20Folder.md)
 	- express 설치하기
 	- node.js 폴더 구조
 	- 체계적인 폴더링 해보기
