@@ -23,5 +23,5 @@
 
 ## 과제 정리
 
-- **첫번째 과제** Promise, async, await 알아오기 [이동](https://github.com/ttub-nii/Prepare-for-26-Server/tree/master/ttub-server)
+- **첫번째 과제** Promise, async, await 알아오기 [이동](https://github.com/ttub-nii/Prepare-for-26-Server/blob/master/ttub-server/첫번째%20과제.md)
 - **두번째 과제** Blog 기능을 갖춘 서버 구축해보기  [이동]
