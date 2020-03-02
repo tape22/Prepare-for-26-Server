@@ -1,0 +1,35 @@
+{
+    "profile_section": {
+        "img_section": "https://lh3.googleusercontent.com/OpQmnvPKYsOdtvqQSBXkRaVsfRzctBXK2B7Y12XU8p_bbPD2KYjZ2FSs-75jBKQYXhTC9eMmrsUsv_X0VNGEgjfJwsM",
+        "title": "Hi, I'm Ally Stone.",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "social_text": "Follow me!"
+    },
+    "section1": {
+        "title": "What I Write",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "lists": {
+            "list1": {
+                "img_list": "https://lh3.googleusercontent.com/DXIUSyhnbYFlI-wBm5Lhyep7DLQF4jBLLEJGe-JTRP1oWGtkGrvpfWPcUyWymvFCV_5RcFB6hvgJc1iHCzYrShLjQw",
+                "title": "Magazines",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            },
+            "list2": {
+                "img_list": "https://lh3.googleusercontent.com/Mthe69lIrmNn0UgGL1MyBoT6jxdjjU-QC81DQm3sq3JZTC49kfE7n8xO1MuP_X4OI9BeNBPOhD1Wfk44ajg7ES7q1g",
+                "title": "Books",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            },
+            "list3": {
+                "img_list": "https://lh3.googleusercontent.com/I2We4x98byKSvnj2MwyrmopsEvOdstBTUgJNGhpSQuZZpKVkJS3wn9iwHST45R8dAwnOtJ0QDdOdkYm8xvEh1QB-3Q",
+                "title": "Blog",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            }
+        },
+        "show_or_hide": true
+    },
+    "contact_section": {
+        "title": "Talk to Ally",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "btn_text": "Send Message"
+    }
+}

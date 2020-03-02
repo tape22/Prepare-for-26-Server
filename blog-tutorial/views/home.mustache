@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>{{global.site_name}}</title>
+    <meta name="description" content="{{global.description}}" />
+    {{>head}}
+</head>
+
+
+    <body>
+        <div class="homepage" id="vertex-container">
+
+            {{>header}}
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 mx-auto col-sm-12 middle-section">
+                        {{#posts}}
+                            <div class="row blog-box">
+                                <div class="col-md-6 col-sm-12 blog-img" style="background-image: url('{{{image}}}=s1080');">
+                                    <a href="/post/{{{slug}}}"></a>
+                                </div>
+                                <div class="col-md-6 col-sm-12 position-relative">
+                                    <div class="ml-4 blog-content">
+                                        <a href="/post/{{{slug}}}"><h3>{{title}}</h3></a>
+                                        <p class="font-sm">
+                                            <span style="text-transform:uppercase" class="cat"><i class="far fa-image mr-2"></i>{{category}}</span> - {{dateString}}
+                                        </p>
+                                        <p>{{preview}}</p>
+                                        <a href="/post/{{{slug}}}" class="link-blue">Continue reading <i class="fas fa-chevron-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        {{/posts}}
+
+                        {{>footer}}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Vertex library for enabling site updates from https://www.vertex360.co -->
+        <script type="text/javascript" src="https://cdn.turbo360-dev.com/dist/vertex.min.js"></script>
+
+        {{>scripts}}
+    </body>
+</html>
