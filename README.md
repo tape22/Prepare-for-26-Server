@@ -1,26 +1,27 @@
+<h1 align="center">ttub-nii</h1>
 
-# <div align="center"> 🔥Prepare-for-26-Server🔥 </center></div>
+<div style="display:flex;" align="center">
 
-<div align="center" style="display:flex;">
-	<img width="1791" alt="스크린샷 2020-02-17 오후 10 30 47" src="https://user-images.githubusercontent.com/35520314/74658256-39555900-51d5-11ea-848b-55af5a630f62.png" width="16%"/>
+  <img alt="npm" src="https://img.shields.io/badge/npm-v6.13.4-red">
+  <img alt="node" src="https://img.shields.io/badge/node-v13.6.0-yellow">
+  <img alt="study" src="https://img.shields.io/badge/study-server-blue">
+  <img alt="data" src="https://img.shields.io/badge/since-2020.01.20-lightgrey">
+  <img alt="license" src="https://img.shields.io/badge/license-MIT-green">
 </div>
 
-<br>
-<div align="center">25기 수료자를 대상으로 한 서버 스터디는 <br>
-클라이언트 파트에서 서버 파트로 지원하려는 OB 회원들을 위해 열린 스터디로, 
+# 정민 스앵님과 함께하는 서린 스털뒤
+  Node.js 와 Express 프레임워크를 사용하여 서버 환경 구축하기
 
-서버 파트에 들어가기 전에 알고 가면 좋을만한 기본 사항들을 정리한 강의입니다. 
-<br>
-언어는 javascript이고, node.js를 사용합니다.</center></div>
+## 세미나 정리
 
-
-<br>
-
-## 📋목차
-
-### 01. 서버란 무엇인가
-### 02. express와 폴더 구조
-### 03. REST API와 node.js
-### 04. AWS EC2와 RDS 사용하기
+- **첫번째 세미나** 서버란 무엇인가? [이동](https://github.com/ttub-nii/Prepare-for-26-Server/blob/master/ttub-server/첫번째%20세미나.md)
+- **두번째 세미나** node.js 소개와 프로젝트 구조 [이동](https://github.com/ttub-nii/Prepare-for-26-Server/blob/master/ttub-server/두번째%20세미나.md)
+- **세번째 세미나** Node.js Express 환경 세팅하기 [이동](https://github.com/ttub-nii/Prepare-for-26-Server/blob/master/ttub-server/세번째%20세미나.md)
+- **네번째 세미나** REST API 란 무엇인가? [이동](https://github.com/ttub-nii/Prepare-for-26-Server/blob/master/ttub-server/네번째%20세미나.md)
+- **다섯번째 세미나** node.js의 구조 [이동](https://github.com/ttub-nii/Prepare-for-26-Server/blob/master/ttub-server/다섯번째%20세미나.md)
 
 
+## 과제 정리
+
+- **첫번째 과제** Promise, async, await 알아오기 [이동](https://github.com/ttub-nii/Prepare-for-26-Server/blob/master/ttub-server/첫번째%20과제.md)
+- **두번째 과제** Blog 기능을 갖춘 서버 구축해보기  [이동]
