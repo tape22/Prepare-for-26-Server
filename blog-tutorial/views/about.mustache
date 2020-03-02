@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>{{global.site_name}}</title>
+    <meta name="description" content="{{global.description}}" />
+    {{>head}}
+</head>
+
+    <body>
+        <div class="about-page" id="vertex-container">
+
+            {{>header}}
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 mx-auto col-sm-12 middle-section">
+
+                        <div class="profile mt-5 pt-5 pb-4" id="profile_section">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-md-4 col-sm-12">
+                                    <img class="img-fluid" src="{{{page.profile_section.img_section}}}"/>
+                                </div>
+                                <div class="col-md-8 col-sm-12 pl-3">
+                                    <h3>{{page.profile_section.title}}</h3>
+                                    <p>{{page.profile_section.description}}</p>
+                                    <p class="mt-4 mb-0">{{page.profile_section.social_text}}</p>
+                                    <ul class="list-inline social social-white-alt mb-0">
+                                        {{#global.social.facebook.show_or_hide}}
+                                        <li class="list-inline-item"><a href="{{{global.social.facebook.link}}}" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                        {{/global.social.facebook.show_or_hide}}
+
+                                        {{#global.social.instagram.show_or_hide}}
+                                        <li class="list-inline-item"><a href="{{{global.social.instagram.link}}}" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                        {{/global.social.instagram.show_or_hide}}
+
+                                        {{#global.social.twitter.show_or_hide}}
+                                        <li class="list-inline-item"><a href="{{{global.social.twitter.link}}}" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                        {{/global.social.twitter.show_or_hide}}
+
+                                        {{#global.social.youtube.show_or_hide}}
+                                        <li class="list-inline-item"><a href="{{{global.social.youtube.link}}}" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                                        {{/global.social.youtube.show_or_hide}}
+                                    </ul>
+                                </div>
+                            </div>
+
+                            {{#page.section1.show_or_hide}}
+                            <section class="section1 mt-5 mb-5 pt-5 pb-5 pr-4" id="section1">
+                                <div class="head">
+                                    <h2 class="about-title">{{page.section1.title}}</h2>
+                                    <p class="mb-4">{{page.section1.description}}</p>
+                                </div>
+
+                                <div class="row mt-4">
+                                    <div class="col-md-4">
+                                        <img class="img-fluid" src="{{{page.section1.lists.list1.img_list}}}"/>
+                                        <h4 class="mt-4">{{page.section1.lists.list1.title}}</h4>
+                                        <p>{{page.section1.lists.list1.description}}</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="img-fluid" src="{{{page.section1.lists.list2.img_list}}}"/>
+                                        <h4 class="mt-4">{{page.section1.lists.list2.title}}</h4>
+                                        <p>{{page.section1.lists.list2.description}}</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="img-fluid" src="{{{page.section1.lists.list3.img_list}}}"/>
+                                        <h4 class="mt-4">{{page.section1.lists.list3.title}}</h4>
+                                        <p>{{page.section1.lists.list3.description}}</p>
+                                    </div>
+                                </div>
+                            </section>
+                            {{/page.section1.show_or_hide}}
+
+                            <div class="contact mt-5 mb-5 pr-4" id="contact_section">
+                                <div class="head">
+                                    <h2 class="about-title">{{page.contact_section.title}}</h2>
+                                    <p class="mb-5">{{page.contact_section.description}}</p>
+                                </div>
+
+                                <form action="" method="post">
+                                    <div class="row mt-4">
+                                        <div class="col-md-4">
+                                            <label> Your Name </label>
+                                            <div class="form-group">
+                                                <input type="text" id="edd-user-name" class="form-control" placeholder="">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <label> Your Email </label>
+                                            <div class="form-group">
+                                                <input type="text" id="edd-user-email" class="form-control" placeholder="">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <label> Subject </label>
+                                            <div class="form-group">
+                                                <input type="text" id="edd-user-subject" class="form-control" placeholder="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="head">
+                                        <label> Your Message </label>
+                                        <div class="form-group">
+                                            <textarea name="" id="edd-user-message" cols="30" rows="7" class="form-control" placeholder="Message here"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="submit" id="btn-register" value="{{page.contact_section.btn_text}}" class="btn btn-primary btn-submit">
+                                    </div>
+                                </form>
+                            </div>
+
+                            {{>footer}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            window.__PRELOADED__ = {{{preloaded}}}
+        </script>
+
+        {{>scripts}}
+    </body>
+</html>

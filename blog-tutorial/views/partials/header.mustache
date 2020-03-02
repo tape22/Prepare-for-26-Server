@@ -1,0 +1,56 @@
+<section class="smart-scroll">
+    <div class="container">
+        <div class="text-center d-none d-md-block logo-top position-relative py-md-5">
+            <a class="navbar-brand heading-black" href="/">
+                <img class="img-logo" src="{{{global.img_logo_nav}}}=s360"/>
+            </a>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-md navbar-light">
+        <a class="d-md-none navbar-brand heading-black" href="/">
+            <img class="img-logo" src="{{{global.img_logo_nav}}}=s320"/>
+        </a>
+        <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse"
+                data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse nav-wrapper" id="navbarCollapse">
+            <div class="container-fluid header-nav" id="header-nav">
+                <ul class="head-nav text-center mb-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+
+                    {{#global.header_nav.nav1.show_or_hide}}
+                    <li class="nav-item">
+                        <a class="nav-link" href="/posts?category={{global.header_nav.nav1.text}}">{{global.header_nav.nav1.text}}</a>
+                    </li>
+                    {{/global.header_nav.nav1.show_or_hide}}
+
+                    {{#global.header_nav.nav2.show_or_hide}}
+                    <li class="nav-item">
+                        <a class="nav-link" href="/posts?category={{global.header_nav.nav2.text}}">{{global.header_nav.nav2.text}}</a>
+                    </li>
+                    {{/global.header_nav.nav2.show_or_hide}}
+
+                    {{#global.header_nav.nav3.show_or_hide}}
+                    <li class="nav-item">
+                        <a class="nav-link" href="/posts?category={{global.header_nav.nav3.text}}">{{global.header_nav.nav3.text}}</a>
+                    </li>
+                    {{/global.header_nav.nav3.show_or_hide}}
+
+                    {{#global.header_nav.nav4.show_or_hide}}
+                    <li class="nav-item">
+                        <a class="nav-link" href="/posts?category={{global.header_nav.nav4.text}}">{{global.header_nav.nav4.text}}</a>
+                    </li>
+                    {{/global.header_nav.nav4.show_or_hide}}
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</section>
