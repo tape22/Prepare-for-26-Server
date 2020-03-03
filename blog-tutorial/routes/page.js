@@ -38,6 +38,8 @@ router.get('/posts', (req, res) => {
 
 router.get('/post/:slug', (req, res) => {
 	const data = req.context
+	const slug = req.params.slug // dynamic path pattern
+	console.log('SLUG == '+slug) // spit out the text
 
 	const ctr = new controllers.post()
 	ctr.get({slug:req.params.slug})
