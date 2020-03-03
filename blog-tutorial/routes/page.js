@@ -66,4 +66,21 @@ router.get('/about', (req, res) => {
 	res.render('about', data)
 })
 
+router.get('/health', (req, rex) => {
+	const data = req.context
+
+	const postsCtr = new controllers.post()
+	postsCtr.get({category:'health'}) // fetch
+	.then(posts=> {
+		// const numPosts = posts.length
+		// res.send('Found ' + numPosts+ 'blog posts!')
+
+		data['posts']= posts
+		res.render('home', data)
+	})
+	.catch(error => {
+		res.send('Oops! Something went wrong: ' + error.message)
+	});
+})
+
 module.exports = router
