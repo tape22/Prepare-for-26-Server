@@ -61,11 +61,6 @@ router.get('/post/:slug', (req, res) => {
 	})
 })
 
-router.get('/about', (req, res) => {
-	const data = req.context
-	res.render('about', data)
-})
-
 router.get('/health', (req, rex) => {
 	const data = req.context
 
@@ -87,9 +82,24 @@ router.get('/travel', (req, res) => {
 	const data = req.context
 
 	const postsCtr = new controllers.post()
-	postsCtr.get({category:'travel'})
-	.then(posts => { 
+	postsCtr.get({category:'travel'}) // fetch
+	.then(posts=> {
 		// this is an array
+
+		data['posts']= posts
+		res.render('home', data)
+	})
+	.catch(error => {
+		res.send('Oops! Something went wrong: ' + error.message)
+	});
+})
+
+router.get('/project', (req, res) => {
+	const data = req.context
+
+	const postsCtr = new controllers.post()
+	postsCtr.get({category:'project'})
+	.then(posts => { 
 		data['posts'] = posts
 		res.render('home', data)
 	})
@@ -99,6 +109,12 @@ router.get('/travel', (req, res) => {
 			message: err.message
 		})
 	})
+})
+
+
+router.get('/about', (req, res) => {
+	const data = req.context
+	res.render('about', data)
 })
 
 router.post('/message', (req, res) => {

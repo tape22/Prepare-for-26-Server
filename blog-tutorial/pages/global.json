@@ -10,18 +10,14 @@
             "show_or_hide": true
         },
         "nav2": {
-            "text": "fashion",
-            "show_or_hide": false
-        },
-        "nav3": {
             "text": "travel",
             "show_or_hide": true
         },
-        "nav4": {
+        "nav3": {
             "text": "project",
             "show_or_hide": true
         },
-        "nav5": {
+        "nav4": {
             "text": "about",
             "show_or_hide": true
         }
