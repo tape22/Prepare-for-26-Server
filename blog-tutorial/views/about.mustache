@@ -77,26 +77,19 @@
                                     <p class="mb-5">{{page.contact_section.description}}</p>
                                 </div>
 
-                                <form action="" method="post">
+                                <form action="/message" method="post">
                                     <div class="row mt-4">
                                         <div class="col-md-4">
                                             <label> Your Name </label>
                                             <div class="form-group">
-                                                <input type="text" id="edd-user-name" class="form-control" placeholder="">
+                                                <input type="text" name="visitor-name" class="form-control" placeholder="">
                                             </div>
                                         </div>
 
                                         <div class="col-md-4">
                                             <label> Your Email </label>
                                             <div class="form-group">
-                                                <input type="text" id="edd-user-email" class="form-control" placeholder="">
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-4">
-                                            <label> Subject </label>
-                                            <div class="form-group">
-                                                <input type="text" id="edd-user-subject" class="form-control" placeholder="">
+                                                <input type="text" name="visitor-email" class="form-control" placeholder="">
                                             </div>
                                         </div>
                                     </div>
@@ -104,12 +97,12 @@
                                     <div class="head">
                                         <label> Your Message </label>
                                         <div class="form-group">
-                                            <textarea name="" id="edd-user-message" cols="30" rows="7" class="form-control" placeholder="Message here"></textarea>
+                                            <textarea name="visitor-message" cols="30" rows="7" class="form-control" placeholder="Message here"></textarea>
                                         </div>
                                     </div>
 
                                     <div class="form-group">
-                                        <input type="submit" id="btn-register" value="{{page.contact_section.btn_text}}" class="btn btn-primary btn-submit">
+                                        <input type="submit" value="{{page.contact_section.btn_text}}" class="btn btn-primary btn-submit">
                                     </div>
                                 </form>
                             </div>

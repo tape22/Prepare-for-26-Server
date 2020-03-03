@@ -83,4 +83,45 @@ router.get('/health', (req, rex) => {
 	});
 })
 
+router.get('/travel', (req, res) => {
+	const data = req.context
+
+	const postsCtr = new controllers.post()
+	postsCtr.get({category:'travel'})
+	.then(posts => { 
+		// this is an array
+		data['posts'] = posts
+		res.render('home', data)
+	})
+	.catch(err=> {
+		res.json({
+			confirmation: 'fail',
+			message: err.message
+		})
+	})
+})
+
+router.post('/message', (req, res) => {
+	const formData = req.body
+
+	// res.json(formData)
+
+	// create Messasage
+	const messageCtr = new controllers.message()
+	messageCtr.post({name:formData['visitor-name'], email:formData['visitor-email'], text:formData['visitor-message'],})
+	.then(message => {
+		// success callback
+		res.json({
+			confirmation: 'success',
+			data: message
+		})
+	})
+	.catch(err => {
+		res.json({
+			confirmation: 'fail', 
+			message: err.message
+		})
+	})
+})
+
 module.exports = router
