@@ -1,35 +1,35 @@
 {
     "profile_section": {
-        "img_section": "https://lh3.googleusercontent.com/OpQmnvPKYsOdtvqQSBXkRaVsfRzctBXK2B7Y12XU8p_bbPD2KYjZ2FSs-75jBKQYXhTC9eMmrsUsv_X0VNGEgjfJwsM",
-        "title": "Hi, I'm Ally Stone.",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "img_section": "https://user-images.githubusercontent.com/44978839/75798845-82530300-5dba-11ea-9d44-bf554d243262.jpg",
+        "title": "Hi, I'm Subin Hwang.",
+        "description": "안녕하세요, 뚭니의 블로그에 오신 것을 환영해요. 좋은 날 보내세요 :)",
         "social_text": "Follow me!"
     },
     "section1": {
-        "title": "What I Write",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "title": "What Represent Me",
+        "description": "스스로에 대한 브랜딩 과제를 맞아 가까운 지인들에게 저라는 사람에 대해 설문한 적이 있는데요, 제 자신을 가장 잘 대표하는 3가지의 키워드를 소개할게요.",
         "lists": {
             "list1": {
-                "img_list": "https://lh3.googleusercontent.com/DXIUSyhnbYFlI-wBm5Lhyep7DLQF4jBLLEJGe-JTRP1oWGtkGrvpfWPcUyWymvFCV_5RcFB6hvgJc1iHCzYrShLjQw",
-                "title": "Magazines",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                "img_list": "https://lh3.googleusercontent.com/I2We4x98byKSvnj2MwyrmopsEvOdstBTUgJNGhpSQuZZpKVkJS3wn9iwHST45R8dAwnOtJ0QDdOdkYm8xvEh1QB-3Q",
+                "title": "Selective passion",
+                "description": "'유노윤호', '열정맨', '불꽃'처럼 추진적인 단어가 많았어요. 한편으로는 갑자기 수업 시간에 다이어리를 꾸민다거나, 흥미가 없는 일에는 손도 안대는 모습을 보인다는 평가도 있었어요."
             },
             "list2": {
-                "img_list": "https://lh3.googleusercontent.com/Mthe69lIrmNn0UgGL1MyBoT6jxdjjU-QC81DQm3sq3JZTC49kfE7n8xO1MuP_X4OI9BeNBPOhD1Wfk44ajg7ES7q1g",
-                "title": "Books",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                "img_list": "https://lh3.googleusercontent.com/DXIUSyhnbYFlI-wBm5Lhyep7DLQF4jBLLEJGe-JTRP1oWGtkGrvpfWPcUyWymvFCV_5RcFB6hvgJc1iHCzYrShLjQw",
+                "title": "Sensitive puppy",
+                "description": "다이어리를 열심히 쓴다거나, 작은 것을 기억하는 모습, 그리고 주변 사람들을 잘 돌아봐서 관심이 있어야 보이는 것들을 캐치하는 모습이 꼭 사람을 좋아하는 강아지 같다고 하네요."
             },
             "list3": {
-                "img_list": "https://lh3.googleusercontent.com/I2We4x98byKSvnj2MwyrmopsEvOdstBTUgJNGhpSQuZZpKVkJS3wn9iwHST45R8dAwnOtJ0QDdOdkYm8xvEh1QB-3Q",
-                "title": "Blog",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                "img_list": "https://lh3.googleusercontent.com/Mthe69lIrmNn0UgGL1MyBoT6jxdjjU-QC81DQm3sq3JZTC49kfE7n8xO1MuP_X4OI9BeNBPOhD1Wfk44ajg7ES7q1g",
+                "title": "Internal rigidity",
+                "description": "내적 단담함은 앞서 두 단어와는 별개로 제가 추구하는 저의 모습이에요. 사소한 일에 감정을 휘둘리지 않고 스스로의 중심을 잃지 않으면서 숲을 보고 나아가는 현명한 사람이 되고싶어요."
             }
         },
         "show_or_hide": true
     },
     "contact_section": {
-        "title": "Talk to Ally",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "title": "Talk to Subin",
+        "description": "제게 궁금한 것이 있으시다면 언제든지 남겨주세요!",
         "btn_text": "Send Message"
     }
 }

@@ -1,7 +1,7 @@
 {
-    "site_name": "The (K) Feature",
+    "site_name": "ttub-nii's blog",
     "img_favicon": "https://lh3.googleusercontent.com/BB0PMpu0m_DXBgreKRK_GBhTECtxp0M7eyuOdSjdBqqqZKMIEkdtwXsm1-GVAeuqVeTwZeaVcRoIqDkwIV518qP1",
-    "img_logo_nav": "https://lh3.googleusercontent.com/HuIRLHuScbAkfYUeYBGeczSPnhnGEamaQoidz9ohkkm6PkPxYUiOD6XI3oryNNdgMveIEzAR4GZkSa6TEPR89D0l",
+    "img_logo_nav": "https://user-images.githubusercontent.com/44978839/75805055-6bb1a980-5dc4-11ea-8042-870ce933fe8a.png",
     "subscriber_confirmation": "Thank you for subscribing! We will contact you shortly.",
     "description": "",
     "header_nav": {
@@ -11,32 +11,32 @@
         },
         "nav2": {
             "text": "fashion",
-            "show_or_hide": true
+            "show_or_hide": false
         },
         "nav3": {
             "text": "travel",
             "show_or_hide": true
         },
         "nav4": {
-            "text": "business",
+            "text": "project",
             "show_or_hide": true
         },
         "nav5": {
-            "text": "family",
+            "text": "about",
             "show_or_hide": true
         }
     },
     "social": {
         "facebook": {
-            "link": "https://www.facebook.com",
+            "link": "https://www.facebook.com/profile.php?id=100017319430372",
             "show_or_hide": true
         },
-        "twitter": {
-            "link": "https://www.twitter.com",
+        "github": {
+            "link": "https://github.com/ttub-nii",
             "show_or_hide": true
         },
         "instagram": {
-            "link": "https://www.instagram.com",
+            "link": "https://www.instagram.com/ttub_nii",
             "show_or_hide": true
         },
         "youtube": {
@@ -44,5 +44,5 @@
             "show_or_hide": true
         }
     },
-    "copyright": "© 2019 The (K) Feature. All Rights Reserved."
+    "copyright": "© 2020 ttub-nii. All Rights Reserved."
 }
