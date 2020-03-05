@@ -1,4 +1,4 @@
 # config
 config/*
-dgConfig.js
+dbConfig.js
 secretKey.js
