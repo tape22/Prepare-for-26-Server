@@ -1,0 +1,4 @@
+# config
+config/*
+dgConfig.js
+secretKey.js
