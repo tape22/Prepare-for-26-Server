@@ -2,11 +2,16 @@ var express = require("express");
 var router = express.Router();
 
 const { au, sc, rm } = require("../../modules/utils");
-// salt뿌려서 암호화
 const crypto = require("crypto");
-// 로그인 시 토큰 발급
 // const jwt = require("../../modules/jwt");
 
+/*
+  회원가입
+  POST| /signup 
+  {
+    userId, pwd, email
+  }
+*/
 router.post("/signup", async (req, res) => {
   const { userId, pwd, email } = req.body;
 
@@ -19,12 +24,18 @@ router.post("/signup", async (req, res) => {
   }
 
   try {
+    // 이걸 미들웨어로 뺄순없나??
     //pwd salt값 뿌려주기
     const salt = crypto.randomBytes(32).toString("base64");
     console.log(salt);
     const derivedKey = crypto.pbkdf2Sync(password, salt, 1, 32, "sha512");
     const key = derivedKey.toString("base64");
     console.log(key);
+
+    crypto.pbkdf2("secret", "salt", 100000, 64, "sha512", (err, derivedKey) => {
+      if (err) throw err;
+      console.log(derivedKey.toString("hex")); // '3745e48...08d59ae'
+    });
   } catch (err) {
     console.log(err);
     res.json({
