@@ -1,7 +1,7 @@
 const { au, sc, rm } = require('..//modules/utils');
 
 //const encrypt = require('../modules/auth/encryption');
-const jwt = require('../modules/jwt');
+const jwt = require('../modules/auth/jwt');
 const pool = require('../modules/pool');
 const crypto = require('crypto');
 
@@ -16,25 +16,25 @@ module.exports = {
     const result = await pool.queryParam_None(query);
 
     // ID 중복체크
-    const checkId = pool.queryParam_None(`SELECT * FROM Sign WHERE userId = '${userId}'`);
+    const checkId = pool.queryParam_None(`SELECT * FROM ${table} WHERE userId = '${userId}'`);
 
     console.log(checkId);
     if (checkId.length > 0) {
       return {
-        code: stC.BAD_REQUEST,
-        json: utils.successFalse(reM.ALREADY_ID)
+        code: sc.BAD_REQUEST,
+        json: au.successFalse(rm.ALREADY_ID)
       };
     } else {
       // 회원가입
       if (result.length == 0) {
         return {
-          code: stC.INTERNAL_SERVER_ERROR,
-          json: utils.successFalse(resM.INTERNAL_SERVER_ERROR)
+          code: sc.INTERNAL_SERVER_ERROR,
+          json: au.successFalse(rm.INTERNAL_SERVER_ERROR)
         };
       } else {
         return {
-          code: stC.OK,
-          json: utils.successTrue(resM.SIGN_UP_SUCCESS)
+          code: sc.OK,
+          json: au.successTrue(rm.SIGN_UP_SUCCESS)
         };
       }
     }
@@ -47,23 +47,23 @@ module.exports = {
     //userId가 DB에 없으면 에러 처리
     if (result.length == 0) {
       return {
-        code: stC.BAD_REQUEST,
-        json: utils.successFalse(resM.NO_USER)
+        code: sc.BAD_REQUEST,
+        json: au.successFalse(rm.NO_USER)
       };
     }
 
     //받은 password값이랑 DB에 있는 값이랑 비교
     const salt = JSON.stringify(result[0].salt).replace(/['"]+/g, ''); //DB에 있는 salt
     const pwd = JSON.stringify(result[0].password).replace(/['"]+/g, ''); //값이 ""큰따옴표가 붙어서 나오기 때문에 제거해줘야함
-
+    console.log(pwd);
     const derivedKey = crypto.pbkdf2Sync(password, salt, 1, 32, 'sha512');
     const pwdkey = derivedKey.toString('base64');
     console.log(pwdkey);
 
     if (pwd != pwdkey) {
       return {
-        code: stC.BAD_REQUEST,
-        json: utils.successFalse(resM.MISS_MATCH_PW)
+        code: sc.BAD_REQUEST,
+        json: au.successFalse(rm.MISS_MATCH_PW)
       };
     } else {
       //토큰 발행(jwt)하고 성공 메시지 보내기
@@ -72,14 +72,14 @@ module.exports = {
 
       if (!insert) {
         return {
-          code: stC.BAD_REQUEST,
-          json: utils.successFalse(resM.EMPTY_TOKEN)
+          code: sc.BAD_REQUEST,
+          json: au.successFalse(rm.EMPTY_TOKEN)
         };
       }
 
       return {
-        code: stC.OK,
-        json: utils.successTrue(resM.SIGN_IN_SUCCESS, token)
+        code: sc.OK,
+        json: au.successTrue(rm.SIGN_IN_SUCCESS, token)
       };
     }
   }

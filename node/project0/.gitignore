@@ -1,4 +1,3 @@
 # config
 config/
 dbConfig.js
-secretKey.js
