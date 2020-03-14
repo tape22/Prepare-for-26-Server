@@ -26,7 +26,7 @@ module.exports = {
       };
     } else {
       // 회원가입
-      if (result.length == 0) {
+      if (result.length === 0) {
         return {
           code: sc.INTERNAL_SERVER_ERROR,
           json: au.successFalse(rm.INTERNAL_SERVER_ERROR)
@@ -45,7 +45,7 @@ module.exports = {
     const result = await pool.queryParam_None(query);
 
     //userId가 DB에 없으면 에러 처리
-    if (result.length == 0) {
+    if (result.length === 0) {
       return {
         code: sc.BAD_REQUEST,
         json: au.successFalse(rm.NO_USER)
